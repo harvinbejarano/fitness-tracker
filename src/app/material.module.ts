@@ -1,9 +1,13 @@
 import { CommonModule } from '@angular/common';
 import {
   MatButtonModule,
+  MatCheckboxModule,
+  MatDatepickerModule,
   MatFormFieldModule,
   MatIconModule,
-  MatInputModule
+  MatInputModule,
+  MatNativeDateModule,
+  MatSidenavModule
   } from '@angular/material';
 import { NgModule } from '@angular/core';
 
@@ -15,13 +19,21 @@ import { NgModule } from '@angular/core';
     MatButtonModule,
     MatIconModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatCheckboxModule,
+    MatSidenavModule
   ],
   exports: [
     MatButtonModule,
     MatIconModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatCheckboxModule,
+    MatSidenavModule
   ]
 })
 export class MaterialModule { }
